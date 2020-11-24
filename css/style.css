@@ -1,0 +1,111 @@
+html, body {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.02em;
+	height: 100%;
+	margin: 0;
+  padding: 0;
+  background-color: rgb(0, 35, 66);
+}
+.banner-container.light {
+  text-align: center;
+  width: 420px;
+  height: 490px;
+  margin: 1% auto;
+  background: white;
+}
+.banner-container.dark {
+  text-align: center;
+  width: 420px;
+  height: 390px;
+  margin: 1% auto;
+  background: #151928;
+}
+.banner-header.light{
+  font-size: 26px;
+  padding: 10px 0 6px;
+}
+.banner-header.dark {
+  font-size: 26px;
+  color: #fff;
+  padding: 10px 0 6px;
+}
+.banner-element {
+  width: 26%;
+  height: 86px;
+  border-radius: 5px;
+  margin: 1% 0.5%;
+  padding: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  vertical-align: top;
+  cursor: pointer;
+}
+.banner-element-header {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  min-height: 35px;
+}
+.banner-element-value {
+  font-size: 22px;
+  font-weight: 600;
+
+}
+.banner-element-1.light {
+  background-clip: text;
+  text-transform: uppercase;
+  border: 1px solid #4C4CE2;
+  background: linear-gradient(to right, #4C4CE2 0%, #FE6EEA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-element-2.light {
+  background-clip: text;
+  text-transform: uppercase;
+  border: 1px solid #FF4996;
+  background: linear-gradient(to right, #FF4996 0%, #FF9C58 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-element-3.light {
+  background-clip: text;
+  text-transform: uppercase;
+  border: 1px solid #009EFF;
+  background: linear-gradient(to right, #009EFF 0%, #2ACC6C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-element-4.light {
+  background-clip: text;
+  text-transform: uppercase;
+  border: 1px solid #FE72A1;
+  background: linear-gradient(to right, #FE72A1 0%, #6E90FE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-element-1.dark {
+  background-clip: text;
+  text-transform: uppercase;
+  border: 1px solid #4C4CE2;
+  background: linear-gradient(to right, #4C4CE2 0%, #FE6EEA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-element-2.dark {
+  background-clip: text;
+  text-transform: uppercase;
+  border: 1px solid #FF4996;
+  background: linear-gradient(to right, #FF4996 0%, #FF9C58 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-element-3.dark {
+  background-clip: text;
+  text-transform: uppercase;
+  border: 1px solid #009EFF;
+  background: linear-gradient(to right, #009EFF 0%, #2ACC6C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
